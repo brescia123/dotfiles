@@ -1,6 +1,6 @@
-My personal collection of dotfiles.
+My personal collection of **dotfiles**.
 
-To setup (read: create symlinks :D) launch:
+To setup run:
 ```
   bash setup.sh
 ```

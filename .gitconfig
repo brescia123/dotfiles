@@ -13,3 +13,4 @@
 	ctm = commit -m
 	co = checkout
 	com = checkout master
+	pom = push origin master

@@ -1,10 +1,4 @@
 # Git
-# aliases
-alias gs='git status'
-alias gc='git checkout'
-alias gcm='git checkout master'
-alias ga='git add'
-alias gaa='git add -A'
 # repository status and completion
 source ~/.git-prompt.sh
 source ~/.git-completion.bash
@@ -31,6 +25,7 @@ LUNCHY_DIR=$(dirname `gem which lunchy`)/../extras
 if [ -f $LUNCHY_DIR/lunchy-completion.bash ]; then
   . $LUNCHY_DIR/lunchy-completion.bash
 fi
+sdf
 
 # Autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh

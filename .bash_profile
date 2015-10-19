@@ -2,6 +2,7 @@
 # repository status and completion
 source ~/.git-prompt.sh
 source ~/.git-completion.bash
+source /usr/local/opt/autoenv/activate.sh
 
 # PS1
 export PS1="$(tput setaf 2)\u@$(tput setaf 2)mac:$(tput setaf 4)\W$(tput setaf 1)\$(__git_ps1)$(tput setaf 7) \$ $(tput sgr0)"
@@ -25,7 +26,6 @@ LUNCHY_DIR=$(dirname `gem which lunchy`)/../extras
 if [ -f $LUNCHY_DIR/lunchy-completion.bash ]; then
   . $LUNCHY_DIR/lunchy-completion.bash
 fi
-sdf
 
 # Autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh

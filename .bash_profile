@@ -8,13 +8,15 @@ source /usr/local/opt/autoenv/activate.sh
 export PS1="$(tput setaf 2)\u@$(tput setaf 2)mac:$(tput setaf 4)\W$(tput setaf 1)\$(__git_ps1)$(tput setaf 7) \$ $(tput sgr0)"
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
+export ANDROID_HOME=~/Developer/android-sdk/platform-tools/
 
 # PATH
 PATH=$PATH:/usr/local/sbin
 # Android tools
-PATH=$PATH:~/Developer/android-sdk/platform-tools/
+PATH=$PATH:$ANDROID_HOME
 # Sublime Text executable
 PATH=$PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/
+
 
 # Brew repository completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then

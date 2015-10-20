@@ -9,6 +9,7 @@
 	editor = nano
 [alias]
 	s = status
+	al = add -A
 	ct = commit
 	ctm = commit -m
 	co = checkout

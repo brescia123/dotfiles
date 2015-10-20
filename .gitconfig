@@ -6,7 +6,7 @@
 	name = Giacomo Bresciani
 	email = brescia123@gmail.com
 [core]
-	editor = atom
+	editor = nano
 [alias]
 	s = status
 	ct = commit

@@ -5,6 +5,7 @@ source ~/.git-completion.bash
 source /usr/local/opt/autoenv/activate.sh
 
 # PS1
+GIT_PS1_SHOWDIRTYSTATE=true
 export PS1="$(tput setaf 2)\u@$(tput setaf 2)mac:$(tput setaf 4)\W$(tput setaf 1)\$(__git_ps1)$(tput setaf 7) \$ $(tput sgr0)"
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced

@@ -2,7 +2,6 @@
 # repository status and completion
 source ~/.git-prompt.sh
 source ~/.git-completion.bash
-source /usr/local/opt/autoenv/activate.sh
 
 # PS1
 GIT_PS1_SHOWDIRTYSTATE=true

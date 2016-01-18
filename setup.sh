@@ -11,7 +11,13 @@ fi
 # Git
 which -s git || brew install git
 
-# Autojump
+# Ruby (only to install lunchy)
+brew install ruby
+
+# Lunchy (github.com/eddiezane/lunchy)
+gem install lunchy
+
+# Autojump (github.com/wting/autojump)
 brew install autojump
 
 # Creating hard links to the home folder; using -f to replace existing links

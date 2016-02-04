@@ -28,3 +28,6 @@ ln -f .gitconfig ~/.gitconfig
 
 # Setting osx config defaults
 bash .osx
+
+# Install software
+bash .software

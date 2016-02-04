@@ -6,5 +6,5 @@ To setup run:
 ```
 
 **TODO:**
-- Include in setup.sh the installation of brew, lunchy etc..
+- Add list of software and changes applied to this README
 - Add OS X specific "defaults" [see https://github.com/mathiasbynens/dotfiles/blob/master/.osx]

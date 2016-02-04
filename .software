@@ -1,0 +1,29 @@
+# Software #
+
+# Install Java JDK 7 and 8
+read -p "Install Java JDK 7 (Android) and 8? " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    brew tap caskroom/versions
+    brew cask install java7
+    brew cask install java
+fi
+
+# Install Android SDK, Gradle and Android Studio
+read -p "Install Android SDK, Gradle and Android Studio? " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+  brew install android-sdk
+  brew install gradle
+  brew cask install android-studio
+fi
+
+# Install Genymotion
+read -p "Install Genymotion? " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+  brew cask install genymotion
+fi

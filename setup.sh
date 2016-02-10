@@ -11,6 +11,9 @@ fi
 # Git
 which -s git || brew install git
 
+# Tig
+which -s tig || brew install tig
+
 # Ruby (only to install lunchy)
 brew install ruby
 

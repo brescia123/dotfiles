@@ -27,3 +27,19 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
   brew cask install genymotion
 fi
+
+# Install Spectacle
+read -p "Install Genymotion? " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+  brew cask install spectacle
+fi
+
+# Install Flux
+read -p "Install Genymotion? " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+  brew cask install flux
+fi

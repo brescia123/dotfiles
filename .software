@@ -29,7 +29,7 @@ then
 fi
 
 # Install Spectacle
-read -p "Install Genymotion? " -n 1 -r
+read -p "Install Spectacle? " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
@@ -37,7 +37,7 @@ then
 fi
 
 # Install Flux
-read -p "Install Genymotion? " -n 1 -r
+read -p "Install Flux? " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then

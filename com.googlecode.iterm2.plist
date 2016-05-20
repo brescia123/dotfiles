@@ -29,7 +29,7 @@
 	<key>CopySelection</key>
 	<true/>
 	<key>Default Bookmark Guid</key>
-	<string>AB7A5B0D-C473-48EC-826F-232E1D8F5564</string>
+	<string>AECFA58B-7B14-4BF8-9921-58333A1F49AC</string>
 	<key>DimBackgroundWindows</key>
 	<false/>
 	<key>DimInactiveSplitPanes</key>
@@ -109,10 +109,15 @@
 	<array/>
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>269 260 924 485 0 0 1920 1177 </string>
+	<string>286 264 924 485 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 748 1920 429 0 0 1920 1177 </string>
+	<string>0 493 1920 684 0 0 1920 1177 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -886,11 +891,11 @@
 			<key>Ansi 12 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.97534662485122681</real>
 				<key>Green Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.57646679878234863</real>
 				<key>Red Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.0</real>
 			</dict>
 			<key>Ansi 13 Color</key>
 			<dict>
@@ -940,11 +945,11 @@
 			<key>Ansi 4 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.80423891544342041</real>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.47975811362266541</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.0015295083867385983</real>
 			</dict>
 			<key>Ansi 5 Color</key>
 			<dict>
@@ -1571,7 +1576,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>481137161.12652397</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>481741245.51112801</real>
+	<real>483878902.348957</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1634,7 +1639,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-04-07T17:00:44Z</date>
+	<date>2016-05-02T10:48:20Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1671,6 +1676,10 @@
 	<integer>0</integer>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
+	<key>findIgnoreCase_iTerm</key>
+	<true/>
+	<key>findRegex_iTerm</key>
+	<false/>
 	<key>iTerm Version</key>
 	<string>2.1.4</string>
 </dict>

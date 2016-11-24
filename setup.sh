@@ -23,12 +23,16 @@ gem install lunchy
 # Autojump (github.com/wting/autojump)
 brew install autojump
 
+# md5sum
+brew install md5sha1sum
+
 # Creating hard links to the home folder; using -f to replace existing links
 ln -f .git-prompt.sh ~/.git-prompt.sh
 ln -f .git-completion.bash ~/.git-completion.bash
 ln -f .bash_profile ~/.bash_profile
 ln -f .gitconfig ~/.gitconfig
 ln -f gradle.properties ~/.gradle
+ln -f .gradle-tab-completion.bash ~/.gradle-tab-completion.bash
 
 # Setting osx config defaults
 bash .osx

@@ -17,7 +17,7 @@ if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
 fi
 
 # PATH
-PATH=$PATH:/usr/local/sbin
+PATH=$PATH:/usr/local/sbin:$ANDROID_HOME/tools/bin/
 
 # Brew repository completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then

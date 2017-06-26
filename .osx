@@ -39,3 +39,9 @@ defaults write com.apple.finder AppleShowAllFiles YES
 
 # Restart Finder
 sudo killall Finder
+
+# Disable Dock's icons bouncing effect
+defaults write com.apple.dock no-bouncing -bool TRUE
+
+# Restart Dock
+sudo killal Dock

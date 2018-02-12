@@ -15,8 +15,9 @@ read -p "Install Android SDK, Gradle and Android Studio? " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-  brew install android-sdk
+  brew tap caskroom/cask
   brew install gradle
+  brew cask install android-sdk
   brew cask install android-studio
 fi
 

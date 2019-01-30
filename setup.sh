@@ -14,29 +14,21 @@ which -s git || brew install git
 # Tig
 which -s tig || brew install tig
 
-# Ruby (only to install lunchy)
-brew install ruby
-
-# Lunchy (github.com/eddiezane/lunchy)
-gem install lunchy
-
 # Autojump (github.com/wting/autojump)
 brew install autojump
 
 # md5sum
 brew install md5sha1sum
 
-# bash vs zsh
-read -p "Configure (b) bash (default) or (z) oh-my-zsh? " -n 1 -r
+# Install zsh
+read -p "Install oh-my-zsh? " -n 1 -r
 echo
-if [[ $REPLY =~ ^[zZ]$ ]]
+if [[ $REPLY =~ ^[Yy]$ ]]
 then
     brew install zsh zsh-completions
     chsh -s /bin/zsh
     sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
     ln -f .zshrc ~/.zshrc
-else
-    ln -f .bash_profile ~/.bash_profile
 fi
 
 # Creating hard links to the home folder; using -f to replace existing links

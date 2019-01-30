@@ -1,13 +1,12 @@
 # Software #
 
-# Install Java JDK 7 and 8
-read -p "Install Java JDK 7 (Android) and 8? " -n 1 -r
+# Install Java JDK
+read -p "Install Java JDK? " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
     brew tap caskroom/versions
-    brew cask install java7
-    brew cask install java
+    brew cask install java8
 fi
 
 # Install Android SDK, Gradle and Android Studio
